@@ -33,7 +33,7 @@ Chess boards are also allowed to have holes, or gaps. For example, we can have a
 
 The rook polynomial of this board is 1 + 8x + 14x^2 + 4x^3.
 
-In order to represent holes in these boards, use NaN when defining the matrix. To encode the above example in matlab use the following code:
+In order to represent holes in these boards, use NaN when defining the matrix. To encode the above example in matlab, use the following code:
 
 #Defining a 3 by 3 chess board with the center square removed
 board = [1, 1, 1; 1, NaN, 1; 1, 1, 1];
@@ -44,7 +44,7 @@ As another example, consider a 3 by 3 board with the corners removed:
 [][][]
   []  
   
-To encode this matrix use this code:
+To encode this matrix, use this code:
 
 #Defining a 3 by 3 board with the corner squares removed
 board = [NaN, 1, NaN; 1, 1, 1; NaN, 1, NaN];
@@ -54,7 +54,7 @@ This code does not take into account any color scheme of the chess board. The co
 #An example of defining the 3 by 3 board with the center removed
 board = [1, 2, 3; 4, NaN, 6; 7, 8, 9];
 
-Bishop polynomials and queen polynomials are analogous to rook polynomials. By using a coordinate transform, it is possible to calculate the bishop polynomial of a board by calculating the rook polynomial of the transformed board. Thus, as of now (May 7, 2016), in order to calculate the bishop polynomialof a board, you must pass the defined board as an argument to makeBishopBoard. You can then calculate the bishop polynomial of a board. For example, to calculate the bishop polynomial of the standard 3 by 3 board, use the following code:
+Bishop polynomials and queen polynomials are analogous to rook polynomials. By using a coordinate transform, it is possible to calculate the bishop polynomial of a board by calculating the rook polynomial of the transformed board. Thus, as of now (May 7, 2016), in order to calculate the bishop polynomial of a board, you must pass the defined board as an argument to makeBishopBoard. You can then calculate the bishop polynomial of the board. For example, to calculate the bishop polynomial of the standard 3 by 3 board, use the following code:
 
 #Calculating the bishop polynomial of the standard 3 by 3 chess board
 board = [1, 1, 1; 1, 1, 1; 1, 1, 1];
