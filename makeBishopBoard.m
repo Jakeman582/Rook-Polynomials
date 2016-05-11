@@ -39,10 +39,10 @@ function [bishopBoard] = makeBishopBoard(rookBoard)
 %         given rook board.
 %
 %Inputs:
-%rookBoard --> The rook board for which a bishop board will be made.
+%  rookBoard --> The rook board for which a bishop board will be made.
 %
 %Outputs:
-%bishopBoard --> The associated bishop board of the given rook board
+%  bishopBoard --> The associated bishop board of the given rook board
 %
 %Required Helper Functions:
 %No required helper functions.
