@@ -9,17 +9,17 @@ function [newBoard] = deleteDiagonal(board, x, y, deltaX, deltaY)
 %         deleted by setting its value to NaN.
 %
 %Inputs:
-%board --> The matrix on which to do the search.
-%x --> The row of the cell by which to base the diagonal deletion.
-%y --> The column of the cell by which to base the diagonal deletion.
-%deltaX --> The horizontal step size determining how many columns to skip
-%           in diagonal deletion.
-%deltay --> The vertical step size determining how many rows to skip in 
-%           diagonal deletion.
+%  board --> The matrix on which to do the search.
+%  x --> The row of the cell by which to base the diagonal deletion.
+%  y --> The column of the cell by which to base the diagonal deletion.
+%  deltaX --> The horizontal step size determining how many columns to skip
+%             in diagonal deletion.
+%  deltay --> The vertical step size determining how many rows to skip in 
+%             diagonal deletion.
 %
 %Outputs:
-%newBoard --> A matrix resulting from deleting the specified diagonals of
-%             the given board matrix.
+%  newBoard --> A matrix resulting from deleting the specified diagonals of
+%               the given board matrix.
 %
 %Required Helper Functions:
 %No required helper functions.
