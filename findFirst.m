@@ -7,11 +7,11 @@ function [first] = findFirst(board)
 %         function performs a row-major search.
 %
 %Inputs:
-%board --> The matrix on which to do the search.
+%  board --> The matrix on which to do the search.
 %
 %Outputs:
-%first --> A 1 by 2 vector [i,j] where row i and column j hold the first
-%          non-NaN component of the given matrix.
+%  first --> A 1 by 2 vector [i,j] where row i and column j hold the first
+%            non-NaN component of the given matrix.
 %
 %Required Helper Functions:
 %No required helper functions.
