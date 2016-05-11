@@ -4,7 +4,7 @@ function [newBoard] = deleteDiagonal(board, x, y, deltaX, deltaY)
 %Author: Jacob Hiance
 %
 %Purpose: Deletes cells that lie on the same two diagonals on which cell
-%         (x,y). A stepsize in x and a step size in y can be specified to
+%         (x,y) lies. A stepsize in x and a step size in y can be specified to
 %         determine the 'slope' of the diagonal that is deleted. A cell is
 %         deleted by setting its value to NaN.
 %
